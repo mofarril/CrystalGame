@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+#game-container{
+background-color: #fff;
+background-image: url("../images/background.jpg")
+}
+
+#header{
+    background-color: blue;
+}
+
+#rules{
+    background-color:paleturquoise;
+}
+
+#randomNumber{
+    background-color: orchid;
+}
+
+#tallyBox{
+    background-color: green;
+}
+
+.crystalBox{
+    background-color: grey;
+}
+
+#scoreBox{
+    background-color: yellow;
+}
+#crystalValue{
+    background-color: rebeccapurple;
+}
