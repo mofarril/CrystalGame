@@ -1,36 +1,134 @@
-*{
-    box-sizing: border-box;
-   
+.crystals{
+
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 52%;
+    height: 175px;
+    position: absolute;
+    margin-left:47%;
+    margin-top: 26%;
+     
 }
 
-#game-container{
-background-color: #fff;
-background-image: url("../images/background.jpg")
+
+.crystalV{
+    border: 3px solid #808080cf; 
+    height: 200px;
+    width: 100px; 
+}
+
+
+*{
+box-sizing: border-box;
+margin: auto;
+
+}
+
+body {
+
+font-size: 30px;
+font-family: 'Fugaz One', cursive;
+height: 960px;
+width: 1000px;
+color: #ffffff; 
+background-image: url("assets\images\background.jpg");
+text-align: center;
+background: radial-gradient(circle,rgba(88, 125, 150, 0.88), white);
+
+}
+
+#game-container{ 
+
+position: absolute; 
+height: 845px;
+width: 950px;
+background-image: url("..\assets\images\bg.jpg");
+border: 10px solid rgba(88, 125, 150, 0.71);
+margin-left: 55px;
 }
 
 #header{
-    background-color: blue;
+background-color: #c2c2c24f;
+font-size: 65px;
+padding: 20px; 
+margin:20px; 
+position: relative; 
+border: 5px solid rgba(88, 125, 150, 0.76);
+
+
 }
 
 #rules{
-    background-color:paleturquoise;
+    background-color:#6ba0a054;     
+    margin: auto; 
+    margin-left:20px;
+    font-size: 20px;
+    height: 580px;
+    width:400px;
+    position: absolute; 
+    text-align: left;
+    border: 5px solid rgba(88, 125, 150, 0.808);
+    display: flex;
+    padding-right: 30px;
+    }
+
+#rNtBox{
+
+width: 60%;
+height: 200px;
+position: absolute;
+
+
 }
 
-#randomNumber{
-    background-color: orchid;
+#randomNumberTarget{
+background-color: #6e456d4f;
+height: 200px;
+width: 200px;
+position: absolute;
+display: inline-block;
+margin-left:35%;
+border: 5px solid rgba(88, 125, 150, 0.808);
+padding-top: 37px;
+
+
 }
 
 #tallyBox{
-    background-color: green;
+background-color: #46684647;
+height: 200px;
+width: 200px;
+position: absolute; 
+display: inline-block;
+margin-left: 77%;
+border: 5px solid rgba(88, 125, 150, 0.808);
+
 }
 
-.crystalBox{
-    background-color: grey;
+
+#sBcVdBox{
+
+width: 60%;
+height: 240px;
+position: absolute;
+margin-left:44%;
+margin-top: 51.2%;
+
 }
 
-#scoreBox{
-    background-color: yellow;
+#totalCrystalV{
+background-color: rgba(108, 83, 133, 0.349);
+height: 108px;
+width: 350px; 
+display: inline-block;
+border: 5px solid rgba(88, 125, 150, 0.808);
+padding: 10px;
+
 }
-#crystalValue{
-    background-color: rebeccapurple;
+
+#win, #loss{
+margin-top:20px;
+padding:14px; 
+text-align: left;
 }
