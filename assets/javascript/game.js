@@ -20,7 +20,7 @@ var startResetGame = function () {
     console.log(randomTarget)
 
 
-    $("#randomNumberTarget").html( "Target: " + "<br>" + "<br>" + randomTarget);
+    $("#randomNumberTarget").html( "Target: " + "<br>" + "<br>" + randomTarget);//prints to page
 
     for (var i = 0; i < 4; i++) {
 
@@ -31,10 +31,14 @@ var startResetGame = function () {
 
         crystalV.attr({
             "class": 'crystalV',
-            "data-random": random
+            "data-random": random,
+            
         });
         crystalV.css({
             "background-image":"url('" + images[i] + "')",
+            "width": "400px",
+            "height": "200px",
+            "justify-content": "space-between"
             
         });
 
@@ -42,7 +46,7 @@ var startResetGame = function () {
         $(".crystals").append(crystalV);
 
     }
-    $("#totalCrystalV").html("Crystals Total: " + "<br>" + totalCrystalsValue);
+    $("#totalCrystalV").html("Crystals Total: " + "<br>" + totalCrystalsValue); // displays crystal value
 }
 
 

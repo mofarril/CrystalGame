@@ -3,19 +3,21 @@
     display: flex; 
     justify-content: space-between; 
     align-items: center;
-    width: 52%;
-    height: 175px;
+    width: 450px;
+    height: 215px;
     position: absolute;
-    margin-left:47%;
+    margin-left:49.5%;
     margin-top: 26%;
      
 }
 
+element.style{
+    background-image: image-set(right);
+}
+
 
 .crystalV{
-    border: 3px solid #808080cf; 
-    height: 200px;
-    width: 100px; 
+    border: 3px solid #808080cf;     
 }
 
 
@@ -32,10 +34,10 @@ font-family: 'Fugaz One', cursive;
 height: 960px;
 width: 1000px;
 color: #ffffff; 
-background-image: url("assets\images\background.jpg");
+background-image: url("../images/background.jpg");
 text-align: center;
 background: radial-gradient(circle,rgba(88, 125, 150, 0.88), white);
-
+text-shadow: rgb(236, 208, 135) 1rem;
 }
 
 #game-container{ 
@@ -43,24 +45,22 @@ background: radial-gradient(circle,rgba(88, 125, 150, 0.88), white);
 position: absolute; 
 height: 845px;
 width: 950px;
-background-image: url("..\assets\images\bg.jpg");
-border: 10px solid rgba(88, 125, 150, 0.71);
+background-image: url("../images/background.jpg");
+border: 10px solid rgba(88, 125, 150, 0.884);
 margin-left: 55px;
 }
 
 #header{
-background-color: #c2c2c24f;
+background-color: #c28383b0;
 font-size: 65px;
 padding: 20px; 
 margin:20px; 
 position: relative; 
 border: 5px solid rgba(88, 125, 150, 0.76);
-
-
 }
 
 #rules{
-    background-color:#6ba0a054;     
+    background-color:#6ba0a08a;     
     margin: auto; 
     margin-left:20px;
     font-size: 20px;
@@ -68,7 +68,7 @@ border: 5px solid rgba(88, 125, 150, 0.76);
     width:400px;
     position: absolute; 
     text-align: left;
-    border: 5px solid rgba(88, 125, 150, 0.808);
+    border: 5px solid rgba(88, 125, 150, 0.856);
     display: flex;
     padding-right: 30px;
     }
@@ -83,7 +83,7 @@ position: absolute;
 }
 
 #randomNumberTarget{
-background-color: #6e456d4f;
+background-color: #6e456daf;
 height: 200px;
 width: 200px;
 position: absolute;
@@ -96,7 +96,7 @@ padding-top: 37px;
 }
 
 #tallyBox{
-background-color: #46684647;
+background-color: #4668467e;
 height: 200px;
 width: 200px;
 position: absolute; 
@@ -118,7 +118,7 @@ margin-top: 51.2%;
 }
 
 #totalCrystalV{
-background-color: rgba(108, 83, 133, 0.349);
+background-color: rgba(108, 83, 133, 0.548);
 height: 108px;
 width: 350px; 
 display: inline-block;
