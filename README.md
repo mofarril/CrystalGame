@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Counter Game
 
 You will be given a random number at the start of the game.
 
@@ -10,4 +10,12 @@ The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the guess will change the values of each crystal.
 
-Link to Game: https://mofarril.github.io/unit-4-game/
+## Technologies 
+
+* HTML
+* JavaScript
+* Css
+
+## To Play 
+
+https://mofarril.github.io/unit-4-game/
