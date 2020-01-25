@@ -18,4 +18,4 @@ Each time when the game starts, the guess will change the values of each crystal
 
 ## To Play 
 
-https://mofarril.github.io/unit-4-game/
+https://mofarril.github.io/CrystalGame/
